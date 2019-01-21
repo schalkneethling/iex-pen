@@ -1,0 +1,46 @@
+{
+  "name": "iex-pen",
+  "version": "1.0.0",
+  "description": "MDN Web Docs Web API interactive examples React component using Codepen API",
+  "main": "src/App.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
+    "format:check": "prettier --list-different \"src/**/*.{js,jsx,css,json}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schalkneethling/iex-pen.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "parcel",
+    "mdn",
+    "code",
+    "examples"
+  ],
+  "author": "Schalk Neethling",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/schalkneethling/iex-pen/issues"
+  },
+  "homepage": "https://github.com/schalkneethling/iex-pen#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.16.0"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}

@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.codepen-iex {
+  position: relative;
+}
+
+.try-it {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  border: 3px solid #3d7e9a;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.hide {
+  display: none;
+}
